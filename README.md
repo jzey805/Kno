@@ -34,19 +34,56 @@ Track the health of your "Second Brain" with predictive analytics.
 - **Spaced Repetition**: Dynamic, AI-generated quizzes that evolve as you learn.
 
 ## 🛠️ Technical Architecture
+
 Kno utilizes a sophisticated multi-model pipeline to balance speed and reasoning depth:
-**System**   	   **Gemini Model**	          **Technical Implementation**
-**Ingestion** 	   gemini-3-flash-preview	  High-speed semantic distillation & Vision/OCR.
-**Logic Guard**	   gemini-3-pro-preview	    Adversarial reasoning with a 4000-token Thinking Budget.
-**Neural Dump**	   gemini-2.5-flash-audio	  Real-time PCM audio streaming via the Live API.
-**Visual Synth**	 gemini-2.5-flash-image	  Generative concept visualization for abstract ideas.
 
-**Key API Implementations**
-- **Thinking Config**: We utilize a high thinking budget for logical auditing to ensure the model explores complex reasoning paths before responding.
-- **Search Grounding**: URL processing is grounded via Google Search to ensure real-time accuracy and citation-backed summaries.
-- **Spatial Vectors**: The canvas uses semantic similarity to cluster nodes automatically.
+| System | Gemini Model | Technical Implementation |
+| :--- | :--- | :--- |
+| **Ingestion** | `gemini-3-flash-preview` | High-speed semantic distillation & Vision/OCR. |
+| **Logic Guard** | `gemini-3-pro-preview` | Adversarial reasoning with a 4000-token Thinking Budget. |
+| **Neural Dump** | `gemini-2.5-flash-audio` | Real-time PCM audio streaming via the Live API. |
+| **Visual Synth** | `gemini-2.5-flash-image` | Generative concept visualization for abstract ideas. |
 
-## 🚀 Try Demo
+### Key API Implementations
+
+* **Thinking Config:** We utilize a high thinking budget for logical auditing to ensure the model explores complex reasoning paths before responding.
+* **Search Grounding:** URL processing is grounded via Google Search to ensure real-time accuracy and citation-backed summaries.
+* **Spatial Vectors:** The canvas uses semantic similarity to cluster nodes automatically.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Node.js & NPM
+* A Google Gemini API Key (v1.5 or Gemini 3 preview access)
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/kno.git](https://github.com/your-username/kno.git)
+    cd kno
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Environment Setup:**
+    Create a `.env` file in the root directory:
+    ```env
+    API_KEY=your_gemini_api_key_here
+    ```
+
+4.  **Run the application:**
+    ```bash
+    npm start
+    ```
+    
+## Try Demo
 https://kno-jenny-zhang-63055794880.us-west1.run.app/
 
 ## 🎨 UI/UX Design
