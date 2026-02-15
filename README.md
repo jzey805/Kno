@@ -1,11 +1,33 @@
-## Kno. — From Feed to Kno.
-![alt text](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1200&auto=format&fit=crop)
-**Kno** is a minimalist AI Knowledge Internalization Engine. It moves beyond simple "bookmarking" to solve the digital "link graveyard" problem by transforming chaotic signals—URLs, PDFs, and voice memos—into structured, audited, and internalized wisdom.
-Built for the Google Gemini API Developer Competition, Kno leverages the multi-model reasoning capabilities of the Gemini 3 ecosystem to create a spatial cognitive environment for the modern researcher.
+# Kno: AI Knowledge Internalization Engine 🧠
+> **Stop collecting. Start architecting.**
+
+[![Status](https://img.shields.io/badge/Status-Live_Demo-success?style=for-the-badge)](https://kno-jenny-zhang-63055794880.us-west1.run.app/)
+[![AI](https://img.shields.io/badge/Powered_by-Gemini_3-4285F4?style=for-the-badge)]()
+[![Solo Dev](https://img.shields.io/badge/Built_by-Solo_Developer-ff69b4?style=for-the-badge)]()
+
+---
+
+### 🚀 [Try the Live Demo](https://kno-jenny-zhang-63055794880.us-west1.run.app/) | [Watch the Film](https://youtu.be/OxsFc40p_Bw)
+
+**Built by a solo developer in 25 days for the Google Gemini API Developer Competition.**
+
+Kno moves beyond simple "bookmarking" to solve the digital "link graveyard" problem. It transforms chaotic signals—URLs, PDFs, and voice memos—into structured, audited, and internalized wisdom. Kno leverages the multi-model reasoning capabilities of the **Gemini 3 ecosystem** to create a spatial cognitive environment for the modern researcher.
+
+---
+
+## 🎥 The Concept
+[![Kno Demo](https://img.youtube.com/vi/OxsFc40p_Bw/maxresdefault.jpg)](https://youtu.be/OxsFc40p_Bw)
+*(Click image to watch the full walkthrough)*
+
+---
 
 ## 🧠 The Philosophy
-Traditional productivity tools focus on **storage**. Kno focuses on **internalization**.
-We believe that data is only useful if it is challenged, synthesized, and remembered. Kno acts as a cognitive partner that doesn't just save what you read—it forces you to think about it through adversarial auditing and spatial mapping.
+
+> Traditional productivity tools focus on **storage**. Kno focuses on **internalization**.
+
+We believe that data is only useful if it is challenged, synthesized, and remembered. Kno acts as a cognitive partner that doesn't just save what you read—it forces you to think about it through **adversarial auditing** and **spatial mapping**.
+
+---
 
 ## ✨ Core Features
 
