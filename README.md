@@ -104,9 +104,6 @@ Kno utilizes a sophisticated multi-model pipeline to balance speed and reasoning
     ```bash
     npm start
     ```
-    
-## Try Demo
-https://kno-jenny-zhang-63055794880.us-west1.run.app/
 
 ## 🎨 UI/UX Design
 Kno features a "Serenity Tech" aesthetic:
